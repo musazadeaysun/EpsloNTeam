@@ -1,10 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.reviewspage1 {
+    background-color: #EFEFEF;
+    padding-bottom: 6vw;
+}
+
+.reviewspageh2 {
+    font-family: "Roboto Slab", serif;
+    padding-left: 7%;
+    padding-top: 6vh;
+    font-size: 3vw;
+}
+
+.reviewspagelab {
+    background-color: white;
+    width: 55%;
+    margin-left: 8%;
+    margin-top: 2.5%;
+    border-radius: 1.5vw;
+    padding: 2vw;
+    box-shadow: 0px 0.3vw 1vw rgba(0, 0, 0, 0.15);
+}
+
+.reviewspagep1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3vw;
+    line-height: 150%;
+}
+
+.reviewspagepro {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.reviewspagepic1 {
+    width: 27%;
+}
+
+.reviewspagepic2 {
+    width: 10%;
+}
+
+.reviewspageh3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.8vw;
+}
+
+.reviewspagepro2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    p {
+        font-size: 2vw !important;
+        line-height: 100%;
+    }
+
+    .reviewspageh2 {
+        font-size: 5.2vh !important;
+        padding-left: 7%;
+        margin-bottom: 5%;
+    }
+
+    .reviewspageh3 {
+        font-size: 2.7vh !important;
+    }
+
+    .reviewspagepro {
+        margin-left: -1vw;
+    }
+
+    .reviewspagepro2 {
+        gap: 1vw;
+        margin-left: 1vw;
+    }
+
+    .reviewspagelab {
+        margin-left: 5%;
+        margin-top: 1%;
+        width: 65%;
+    }
+
+    .reviewspageh3 {
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+
+    p {
+        font-size: 2.3vw !important;
+        line-height: 100%;
+
+    }
+
+    .reviewspageh2 {
+        font-size: 5vh;
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .reviewspageh3 {
+        font-size: 2.5vh;
+    }
+
+    .reviewspagepro {
+        margin-top: 5%;
+    }
+
+    .reviewspagepro2 {
+        gap: 1vw;
+        margin-left: 1vw;
+    }
+
+    .reviewspagelab {
+        margin-left: 5%;
+        margin-top: 4%;
+        width: 70%;
+        padding: 2vw;
+    }
+
+    .reviewspageh3 {
+        font-size: 1.8vh;
+    }
 }
 
 /* font-family: "Roboto", sans-serif; */
