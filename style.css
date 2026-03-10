@@ -1,11 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Roboto Slab", serif; */
+
+main {
+  max-width: 1440px;
+  min-width: 991px;
+  margin: 0 auto;
+}
+
+.courseinfo-section {
+  width: 90%;
+  margin-bottom: 12.3vw;
+}
+
+.courseinfo-h2-box {
+  margin-left: 8.4vw;
+}
+
+.courseinfo-h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.8vw;
+  font-weight: bold;
+  padding-bottom: 3.2vw;
+}
+
+.courseinfo-boxes1 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13.2vw;
+  margin-bottom: 6.5vw;
+  margin-left: 8.4vw;
+}
+
+.courseinfo-box1 {
+  width: 47vw;
+}
+
+.courseinfo-box1-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vw;
+}
+
+.courseinfo-img-box1 {
+  width: 25.4vw;
+}
+
+.courseinfo-img1 {
+  width: 100%;
+}
+
+.courseinfo-boxes2 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 9vw;
+  margin-left: 8.4vw;
+}
+
+.courseinfo-img-box2 {
+  width: 16.1vw;
+}
+
+.courseinfo-img2 {
+  width: 100%;
+}
+
+.courseinfo-box2-text {
+  font-family: "Roboto", sans-serif;
+  width: 10.4vw;
+}
+
+.courseinfo-h4 {
+  font-weight: bold;
+  font-size: 1.7vw;
+}
+
+.courseinfo-box2-p {
+  font-size: 1.25vw;
+}
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  .courseinfo-h2-box {
+    margin-left: 8.4vw;
+  }
+
+  .courseinfo-h2 {
+    font-size: 3.8vw;
+    padding-bottom: 4.3vw;
+  }
+
+  .courseinfo-boxes1 {
+    gap: 13vw;
+    margin-bottom: 6.6vw;
+    margin-left: 8.4vw;
+  }
+
+  .courseinfo-box1 {
+    width: 46vw;
+  }
+
+  .courseinfo-box1-p {
+    font-size: 1.7vw;
+  }
+
+  .courseinfo-img1 {
+    width: 25.4vw;
+  }
+
+  .courseinfo-boxes2 {
+    gap: 8.4vw;
+    margin-left: 8.4vw;
+  }
+
+  .courseinfo-img2 {
+    width: 16vw;
+  }
+
+  .courseinfo-box2-text {
+    width: 10.4vw;
+  }
+
+  .courseinfo-h4 {
+    font-size: 1.8vw;
+  }
+
+  .courseinfo-box2-p {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 375px) {
+  .courseinfo-h2-box {
+    padding-left: 9.6vw;
+    margin: 0 auto;
+    width: 132.1vw;
+  }
+
+  .courseinfo-h2 {
+    font-size: 12vw;
+    padding-bottom: 8vw;
+  }
+
+  .courseinfo-boxes1 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14.5vw;
+    margin-bottom: 9.5vw;
+    margin-left: 19.6vw;
+  }
+
+  .courseinfo-box1 {
+    width: 132.1vw;
+    margin: 0 auto;
+  }
+
+  .courseinfo-box1-p {
+    font-size: 5.2vw;
+  }
+
+  .courseinfo-img-box1 {
+    margin: 0 auto;
+    width: 65.3vw;
+  }
+
+  .courseinfo-img1 {
+    width: 100%;
+  }
+
+  .courseinfo-boxes2 {
+    width: 132.1vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7vw;
+    padding-left: 9.6vw;
+  }
+
+  .courseinfo-img-box2 {
+    display: none;
+  }
+
+  .courseinfo-img2 {
+    display: none;
+  }
+
+  .courseinfo-box2-text {
+    width: 31.3vw;
+  }
+
+  .courseinfo-h4 {
+    font-size: 5.2vw;
+  }
+
+  .courseinfo-box2-p {
+    font-size: 3.7vw;
+  }
+}
