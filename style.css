@@ -11,17 +11,13 @@
 
 main {
   max-width: 1440px;
-  min-width: 991px;
   margin: 0 auto;
 }
 
 .courseinfo-section {
   width: 90%;
+  margin: 0 auto;
   margin-bottom: 12.3vw;
-}
-
-.courseinfo-h2-box {
-  margin-left: 8.4vw;
 }
 
 .courseinfo-h2 {
@@ -38,7 +34,6 @@ main {
   align-items: center;
   gap: 13.2vw;
   margin-bottom: 6.5vw;
-  margin-left: 8.4vw;
 }
 
 .courseinfo-box1 {
@@ -63,7 +58,6 @@ main {
   display: flex;
   align-items: center;
   gap: 9vw;
-  margin-left: 8.4vw;
 }
 
 .courseinfo-img-box2 {
@@ -89,10 +83,6 @@ main {
 }
 
 @media screen and (max-width: 990px) and (min-width: 601px) {
-  .courseinfo-h2-box {
-    margin-left: 8.4vw;
-  }
-
   .courseinfo-h2 {
     font-size: 3.8vw;
     padding-bottom: 4.3vw;
@@ -101,8 +91,7 @@ main {
   .courseinfo-boxes1 {
     gap: 13vw;
     margin-bottom: 6.6vw;
-    margin-left: 8.4vw;
-  }
+    }
 
   .courseinfo-box1 {
     width: 46vw;
@@ -118,7 +107,6 @@ main {
 
   .courseinfo-boxes2 {
     gap: 8.4vw;
-    margin-left: 8.4vw;
   }
 
   .courseinfo-img2 {
@@ -140,39 +128,39 @@ main {
 
 @media screen and (max-width: 600px) and (min-width: 375px) {
   .courseinfo-h2-box {
-    padding-left: 9.6vw;
     margin: 0 auto;
-    width: 132.1vw;
+    width: 90%;
   }
 
   .courseinfo-h2 {
-    font-size: 12vw;
+    font-size: 7vw;
     padding-bottom: 8vw;
+    padding-left: 3vw;
   }
 
   .courseinfo-boxes1 {
-    width: auto;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 14.5vw;
     margin-bottom: 9.5vw;
-    margin-left: 19.6vw;
   }
 
   .courseinfo-box1 {
-    width: 132.1vw;
+    width: 90%;
     margin: 0 auto;
   }
 
   .courseinfo-box1-p {
-    font-size: 5.2vw;
+    font-size: 2.7vw;
   }
 
   .courseinfo-img-box1 {
     margin: 0 auto;
-    width: 65.3vw;
+    width: 45.3vw;
   }
 
   .courseinfo-img1 {
@@ -180,12 +168,11 @@ main {
   }
 
   .courseinfo-boxes2 {
-    width: 132.1vw;
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 7vw;
-    padding-left: 9.6vw;
   }
 
   .courseinfo-img-box2 {
@@ -197,14 +184,14 @@ main {
   }
 
   .courseinfo-box2-text {
-    width: 31.3vw;
+    width: 22.3vw;
   }
 
   .courseinfo-h4 {
-    font-size: 5.2vw;
+    font-size: 3.2vw;
   }
 
   .courseinfo-box2-p {
-    font-size: 3.7vw;
+    font-size: 2.7vw;
   }
 }
