@@ -17,7 +17,7 @@ main {
 
 .cardpace-section {
   width: 100%;
-  margin-bottom: 121px;
+  margin-bottom: 8.4vw;
 }
 
 .cardpace-h2-box {
@@ -27,9 +27,9 @@ main {
 .cardpace-h2 {
   font-family: "Roboto Slab", serif;
   width: auto;
-  font-size: 40px;
-  padding-left: 81px;
-  margin-bottom: 85px;
+  font-size: 3.78vw;
+  padding-left: 5.6vw;
+  margin-bottom: 5.9vw;
   font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ main {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px 35px;
+  gap: 3.78vw 3.43vw;
 }
 
 .cardpace-box {
@@ -56,84 +56,84 @@ main {
 
 .cardpace-box-h4 {
   width: auto;
-  padding: 10px 14px 0 20px;
-  font-size: 20px;
+  padding: 1.69vw 0.97vw 0 1.39vw;
+  font-size: 1.6vw;
   font-weight: bold;
 }
 
 .cardpace-p {
   width: auto;
-  padding: 20px 10px 23px 19px;
-  font-size: 15px;
+  padding: 2.39vw 0.69vw 1.6vw 1.32vw;
+  font-size: 1.34vw;
 }
 
 .cardpace-p8 {
   width: auto;
-  padding: 1px 15px 23px 19px;
-  font-size: 15px;
+  padding: 1.07vw 1.04vw 1.6vw 1.32vw;
+  font-size: 1.34vw;
 }
 
 @media screen and (max-width: 990px) and (min-width: 601px) {
   .cardpace-h2 {
-    font-size: 37px;
-    padding-left: 75px;
-    margin-bottom: 60px;
+    font-size: 3.78vw;
+    padding-left: 7.57vw;
+    margin-bottom: 6.06vw;
   }
 
   .cardpace-section {
-    margin-bottom: 53px;
+    margin-bottom: 5.35vw;
   }
 
   .cardpace-boxes {
-    gap: 20px 22px;
+    gap: 3.02vw 3.22vw;
   }
 
   .cardpace-box-h4 {
-    padding: 5px 8px 0 15px;
-    font-size: 15px;
+    padding: 1.5vw 0.8vw 0 1.5vw;
+    font-size: 1.6vw;
   }
 
   .cardpace-p {
-    padding: 15px 8px 20px 15px;
-    font-size: 15px;
+    padding: 2.51vw 0.8vw 2.02vw 1.5vw;
+    font-size: 1.3vw;
   }
 
   .cardpace-p8 {
-    padding: 1px 8px 20px 15px;
-    font-size: 15px;
+    padding: 1.1vw 0.8vw 2.02vw 1.5vw;
+    font-size: 1.3vw;
   }
 }
 
 @media screen and (max-width: 600px) and (min-width: 375px) {
   .cardpace-h2 {
-    font-size: 65px;
-    padding-left: 65px;
-    margin-bottom: 80px;
+    font-size: 10.83vw;
+    padding-left: 10.83vw;
+    margin-bottom: 13.33vw;
   }
 
   .cardpace-section {
-    margin-bottom: 47px;
+    margin-bottom: 7.83vw;
   }
 
   .cardpace-boxes {
     width: 40%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 55px;
+    gap: 9.17vw;
   }
 
   .cardpace-box-h4 {
-    padding: 10px 8px 0 20px;
-    font-size: 25px;
+    padding: 3.67vw 1.33vw 0 3.33vw;
+    font-size: 4.17vw;
   }
 
   .cardpace-p {
-    padding: 25px 8px 30px 20px;
-    font-size: 20px;
+    padding: 4.17vw 1.33vw 5vw 3.33vw;
+    font-size: 3.33vw;
   }
 
   .cardpace-p8 {
-    padding: 2px 8px 20px 15px;
-    font-size: 20px;
+    padding: 0.33vw 1.33vw 3.33vw 2.5vw;
+    font-size: 3.33vw;
   }
 }
