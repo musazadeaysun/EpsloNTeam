@@ -268,136 +268,79 @@ main {
   }
 }
 
-/* header */
-
-.intro-head {
-  padding: 1.5vw 8vw;
+.about-section {
+  background-color: #9dc9c8;
+  height: 48.75vw;
 }
 
-.intro {
-  padding: 5vw 8vw;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.25rem;
-}
-
-.intro-about {
-  display: flex;
-  gap: 1.5vw;
-  width: 60%;
-}
-
-.intro-icon {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5vw;
-}
-
-/* section 2 */
-
-.intro-second {
-  display: flex;
-  gap: 9vw;
-}
-
-.intro-kino1 {
-  font-size: 5vw;
-  font-weight: 700;
-  width: 100%;
-}
-
-.intro-kino2 {
-  font-size: 1.25vw;
-  width: 66%;
-}
-
-.intro-left {
-  width: 49%;
-}
-
-.intro-right img {
-  width: 20vw;
-}
-
-/* section 3 */
-
-.intro-third {
-  background-color: #1e4681;
-  border-radius: 0.3vw;
-  width: 49%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 1vw 2vw;
-  gap: 0.4vw;
-}
-
-.intro-text1 {
-  font-size: 1.6vw;
-  line-height: 1.3;
+.about-text {
   font-family: "Roboto Slab", serif;
+  padding: 11.2vw 7.6vw;
 }
 
-.intro-text2 {
-  font-size: 1.2vw;
-  text-align: right;
+h3 {
+  font-size: 3.4vw;
+}
+
+.about-rub {
+  font-size: 1.56vw;
+  padding-top: 3.3vw;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+.about-common {
+  display: flex;
+  padding-top: 3.3vw;
+  gap: 4.4vw;
   font-family: "Roboto", sans-serif;
 }
 
-.intro-text {
-  display: flex;
-  padding-left: 21%;
-  padding-top: 6vw;
-  padding-bottom: 8vw;
+ul {
+  font-size: 1.1vw;
+  list-style: none;
+  padding-top: 0.56vw;
+  width: 50%;
+}
+
+.about-left p,
+.about-right p {
+  font-size: 2vw;
 }
 
 @media screen and (max-width: 990px) and (min-width: 601px) {
-  .intro {
-    padding: 4vw 7vw;
+  .about-text {
+    padding: 10vw 7vw;
   }
 
-  .intro-head {
-    padding: 2vw 7vw;
+  h3 {
+    font-size: 3.2vw;
   }
 
-  .intro-head img {
-    width: 8vw;
+  .about-rub {
+    font-size: 1.4vw;
+    padding-top: 3vw;
   }
 
-  .intro-icon {
-    font-size: 1.2vw;
-    align-items: center;
+  h2 {
+    font-size: 4.6vw;
   }
 
-  .intro-kino1 {
-    font-size: 4vw;
-    width: 36vw;
+  .about-common {
+    gap: 4vw;
+    padding-top: 3vw;
   }
 
-  .intro-kino2 {
-    font-size: 1.3vw;
-    width: 26vw;
+  ul {
+    font-size: 1vw;
+    padding-top: 0.5vw;
+    width: 40%;
   }
 
-  .intro-about {
-    width: 65%;
-    gap: 1vw;
-  }
-
-  .intro-right img {
-    width: 18vw;
-  }
-
-  .intro-text {
-    padding-top: 4vw;
-    padding-bottom: 7vw;
-  }
-
-  .intro-third {
-    width: 28vw;
-    padding: 1vw 2vw;
-  }
-
-  .intro-text1 {
+  .about-left p,
+  .about-right p {
     font-size: 1.4vw;
   }
 
@@ -406,70 +349,45 @@ main {
   }
 
 }
+
 @media screen and (max-width: 600px) and (min-width: 375px) {
-  .intro-head {
-    padding: 4vw 6vw;
+  .about-text {
+    padding: 9vw 8vw;
   }
 
-  .intro-head img {
-    width: 12vw;
+  h3 {
+    font-size: 4.5vw;
   }
 
-  .intro {
-    padding: 2vw 6vw;
+  .about-rub {
+    font-size: 3vw;
+    padding-top: 3.5vw;
   }
 
-  .intro-about {
-    width: 80%;
-    gap: 1vw;
-  }
-
-  .intro-icon {
-    font-size: 2.5vw;
-    gap: 0.8vw;
-    align-items: center;
-  }
-
-  .intro-icon img {
-    width: 2.5vw;
-  }
-
-  .intro-second {
-    flex-direction: column;
-    gap: 2vw;
-  }
-
-  .intro-kino1 {
+  h2 {
     font-size: 6vw;
   }
 
-  .intro-kino2 {
-    font-size: 3vw;
-    width: 145%;
+  .about-common {
+    gap: 4vw;
+    padding-top: 3.5vw;
   }
 
-  .intro-right {
-    display: flex;
-    justify-content: flex-end;
+  ul {
+    font-size: 2.5vw;
+    padding-top: 1vw;
+    width: 60%;
+  }
+  .about-section {
+    height: 70vw;
   }
 
-  .intro-right img {
-    width: 40vw;
-  }
-
-  .intro-text {
-    padding: 4vw 0;
-    width: 70%;
-  }
-
-  .intro-third {
-    width: 60vw;
-    padding: 2vw;
-  }
-
-  .intro-text1 {
+  .about-left p,
+  .about-right p {
     font-size: 3vw;
   }
+
+}
 
 
 .courseinfo-section {
