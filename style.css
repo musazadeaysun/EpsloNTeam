@@ -730,7 +730,7 @@ main {
 }
 
 .intro-head {
-  padding: 1.5vw 8vw;
+  padding: 1.5vw 5.5vw;
 }
 
 .intro {
@@ -755,7 +755,7 @@ main {
 
 .intro-second {
   display: flex;
-  gap: 9vw;
+  gap: 13vw;
 }
 
 .intro-kino1 {
