@@ -730,11 +730,11 @@ main {
 }
 
 .intro-head {
-  padding: 1.5vw 5.5vw;
+  padding: 1.5vw 8vw;
 }
 
 .intro {
-  padding: 5vw 8vw;
+  padding: 5vw 5.5vw;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
 }
