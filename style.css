@@ -501,10 +501,6 @@ main {
     font-size: 1.4vw;
   }
 
-  .intro-text2 {
-    font-size: 1.2vw;
-  }
-
 }
 
 @media screen and (max-width: 600px) and (min-width: 375px) {
