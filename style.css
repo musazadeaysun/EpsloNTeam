@@ -1,9 +1,146 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Roboto Slab", serif; */
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cardpage-section {
+  width: 100%;
+  margin-bottom: 8.4vw;
+}
+
+.cardpage-h2-box {
+  width: 100%;
+}
+
+.cardpage-h2 {
+  font-family: "Roboto Slab", serif;
+  width: auto;
+  font-size: 3.78vw;
+  padding-left: 5.6vw;
+  margin-bottom: 5.9vw;
+  font-weight: bold;
+}
+
+.cardpage-boxes {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.78vw 3.43vw;
+}
+
+.cardpage-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 2.3vw;
+  box-shadow: 0 0 15px rgb(171, 171, 171);
+}
+
+.cardpage-img {
+  width: 100%;
+}
+
+.cardpage-box-h4 {
+  width: auto;
+  padding: 1.69vw 0.97vw 0 1.39vw;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.cardpage-p {
+  width: auto;
+  padding: 2.39vw 0.69vw 1.6vw 1.32vw;
+  font-size: 1.34vw;
+}
+
+.cardpage-p8 {
+  width: auto;
+  padding: 1.07vw 1.04vw 1.6vw 1.32vw;
+  font-size: 1.34vw;
+}
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  .cardpage-h2 {
+    font-size: 3.78vw;
+    padding-left: 7.57vw;
+    margin-bottom: 6.06vw;
+  }
+
+  .cardpage-section {
+    margin-bottom: 5.35vw;
+  }
+
+  .cardpace-boxes {
+    gap: 3.02vw 3.22vw;
+  }
+
+  .cardpage-box-h4 {
+    padding: 1.5vw 0.8vw 0 1.5vw;
+    font-size: 1.6vw;
+  }
+
+  .cardpage-p {
+    padding: 2.51vw 0.8vw 2.02vw 1.5vw;
+    font-size: 1.3vw;
+  }
+
+  .cardpage-p8 {
+    padding: 1.1vw 0.8vw 2.02vw 1.5vw;
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 375px) {
+  .cardpage-h2 {
+    font-size: 8.83vw;
+    padding-left: 6.83vw;
+    margin-bottom: 13.33vw;
+  }
+
+  .cardpage-section {
+    margin-bottom: 7.83vw;
+  }
+
+  .cardpage-boxes {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 9.17vw;
+  }
+
+  .cardpage-box {
+    border-radius: 5vw;
+    width: 60%;
+  }
+
+  .cardpage-box-h4 {
+    padding: 3.67vw 1.33vw 0 3.33vw;
+    font-size: 4.17vw;
+  }
+
+  .cardpage-p {
+    padding: 4.17vw 1.33vw 5vw 3.33vw;
+    font-size: 3.33vw;
+  }
+
+  .cardpage-p8 {
+    padding: 0.33vw 1.33vw 3.33vw 2.5vw;
+    font-size: 3.33vw;
+  }
 }
 
 /* header */
@@ -209,11 +346,6 @@
     font-size: 3vw;
   }
 
-
-main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 
 .courseinfo-section {
   width: 90%;
