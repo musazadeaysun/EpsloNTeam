@@ -1,9 +1,271 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reviewspage1 {
+    background-color: #EFEFEF;
+    padding-bottom: 50vw;
+}
+
+.reviewspageh2 {
+    font-family: "Roboto Slab", serif;
+    padding-left: 7%;
+    padding-top: 6vh;
+    font-size: 3vw;
+}
+
+.reviewspagelab {
+    background-color: white;
+    width: 55%;
+    margin-left: 8%;
+    margin-top: 2.5%;
+    border-radius: 1.5vw;
+    padding: 2vw;
+    box-shadow: 0px 0.3vw 1vw rgba(0, 0, 0, 0.15);
+}
+
+.reviewspagep1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3vw;
+    line-height: 150%;
+}
+
+.reviewspagepro {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.reviewspagepic1 {
+    width: 27%;
+}
+
+.reviewspagepic2 {
+    width: 10%;
+}
+
+.reviewspageh3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.8vw;
+}
+
+.reviewspagepro2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    p {
+        font-size: 2vw !important;
+        line-height: 100%;
+    }
+
+    .reviewspageh2 {
+        font-size: 5.2vh !important;
+        padding-left: 7%;
+        margin-bottom: 5%;
+    }
+
+    .reviewspageh3 {
+        font-size: 2.7vh !important;
+    }
+
+    .reviewspagepro {
+        margin-left: -1vw;
+    }
+
+    .reviewspagepro2 {
+        gap: 1vw;
+        margin-left: 1vw;
+    }
+
+    .reviewspagelab {
+        margin-left: 5%;
+        margin-top: 1%;
+        width: 65%;
+    }
+
+    .reviewspageh3 {
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+
+    p {
+        font-size: 2.3vw !important;
+        line-height: 100%;
+
+    }
+
+    .reviewspageh2 {
+        font-size: 5vh;
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .reviewspageh3 {
+        font-size: 2.5vh;
+    }
+
+    .reviewspagepro {
+        margin-top: 5%;
+    }
+
+    .reviewspagepro2 {
+        gap: 1vw;
+        margin-left: 1vw;
+    }
+
+    .reviewspagelab {
+        margin-left: 5%;
+        margin-top: 4%;
+        width: 70%;
+        padding: 2vw;
+    }
+
+    .reviewspageh3 {
+        font-size: 1.8vh;
+    }
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cardpage-section {
+  width: 100%;
+  margin-bottom: 8.4vw;
+}
+
+.cardpage-h2-box {
+  width: 100%;
+}
+
+.cardpage-h2 {
+  font-family: "Roboto Slab", serif;
+  width: auto;
+  font-size: 3.78vw;
+  padding-left: 5.6vw;
+  margin-bottom: 5.9vw;
+  font-weight: bold;
+}
+
+.cardpage-boxes {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.78vw 3.43vw;
+}
+
+.cardpage-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 2.3vw;
+  box-shadow: 0 0 15px rgb(171, 171, 171);
+}
+
+.cardpage-img {
+  width: 100%;
+}
+
+.cardpage-box-h4 {
+  width: auto;
+  padding: 1.69vw 0.97vw 0 1.39vw;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.cardpage-p {
+  width: auto;
+  padding: 2.39vw 0.69vw 1.6vw 1.32vw;
+  font-size: 1.34vw;
+}
+
+.cardpage-p8 {
+  width: auto;
+  padding: 1.07vw 1.04vw 1.6vw 1.32vw;
+  font-size: 1.34vw;
+}
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  .cardpage-h2 {
+    font-size: 3.78vw;
+    padding-left: 7.57vw;
+    margin-bottom: 6.06vw;
+  }
+
+  .cardpage-section {
+    margin-bottom: 5.35vw;
+  }
+
+  .cardpace-boxes {
+    gap: 3.02vw 3.22vw;
+  }
+
+  .cardpage-box-h4 {
+    padding: 1.5vw 0.8vw 0 1.5vw;
+    font-size: 1.6vw;
+  }
+
+  .cardpage-p {
+    padding: 2.51vw 0.8vw 2.02vw 1.5vw;
+    font-size: 1.3vw;
+  }
+
+  .cardpage-p8 {
+    padding: 1.1vw 0.8vw 2.02vw 1.5vw;
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 375px) {
+  .cardpage-h2 {
+    font-size: 8.83vw;
+    padding-left: 6.83vw;
+    margin-bottom: 13.33vw;
+  }
+
+  .cardpage-section {
+    margin-bottom: 7.83vw;
+  }
+
+  .cardpage-boxes {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 9.17vw;
+  }
+
+  .cardpage-box {
+    border-radius: 5vw;
+    width: 60%;
+  }
+
+  .cardpage-box-h4 {
+    padding: 3.67vw 1.33vw 0 3.33vw;
+    font-size: 4.17vw;
+  }
+
+  .cardpage-p {
+    padding: 4.17vw 1.33vw 5vw 3.33vw;
+    font-size: 3.33vw;
+  }
+
+  .cardpage-p8 {
+    padding: 0.33vw 1.33vw 3.33vw 2.5vw;
+    font-size: 3.33vw;
+  }
 }
 
 .about-section {
@@ -81,6 +343,11 @@ ul {
   .about-right p {
     font-size: 1.4vw;
   }
+
+  .intro-text2 {
+    font-size: 1.2vw;
+  }
+
 }
 
 @media screen and (max-width: 600px) and (min-width: 375px) {
@@ -119,4 +386,337 @@ ul {
   .about-right p {
     font-size: 3vw;
   }
+
 }
+
+
+.courseinfo-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 12.3vw;
+}
+
+.courseinfo-h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.8vw;
+  font-weight: bold;
+  padding-bottom: 3.2vw;
+}
+
+.courseinfo-boxes1 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13.2vw;
+  margin-bottom: 6.5vw;
+}
+
+.courseinfo-box1 {
+  width: 47vw;
+}
+
+.courseinfo-box1-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7vw;
+}
+
+.courseinfo-img-box1 {
+  width: 25.4vw;
+}
+
+.courseinfo-img1 {
+  width: 100%;
+}
+
+.courseinfo-boxes2 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 9vw;
+}
+
+.courseinfo-img-box2 {
+  width: 16.1vw;
+}
+
+.courseinfo-img2 {
+  width: 100%;
+}
+
+.courseinfo-box2-text {
+  font-family: "Roboto", sans-serif;
+  width: 10.4vw;
+}
+
+.courseinfo-h4 {
+  font-weight: bold;
+  font-size: 1.7vw;
+}
+
+.courseinfo-box2-p {
+  font-size: 1.25vw;
+}
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  .courseinfo-h2 {
+    font-size: 3.8vw;
+    padding-bottom: 4.3vw;
+  }
+
+  .courseinfo-boxes1 {
+    gap: 13vw;
+    margin-bottom: 6.6vw;
+    }
+
+  .courseinfo-box1 {
+    width: 46vw;
+  }
+
+  .courseinfo-box1-p {
+    font-size: 1.7vw;
+  }
+
+  .courseinfo-img1 {
+    width: 25.4vw;
+  }
+
+  .courseinfo-boxes2 {
+    gap: 8.4vw;
+  }
+
+  .courseinfo-img2 {
+    width: 16vw;
+  }
+
+  .courseinfo-box2-text {
+    width: 10.4vw;
+  }
+
+  .courseinfo-h4 {
+    font-size: 1.8vw;
+  }
+
+  .courseinfo-box2-p {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 375px) {
+  .courseinfo-h2-box {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .courseinfo-h2 {
+    font-size: 7vw;
+    padding-bottom: 8vw;
+    padding-left: 3vw;
+  }
+
+  .courseinfo-boxes1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14.5vw;
+    margin-bottom: 9.5vw;
+  }
+
+  .courseinfo-box1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .courseinfo-box1-p {
+    font-size: 2.7vw;
+  }
+
+  .courseinfo-img-box1 {
+    margin: 0 auto;
+    width: 45.3vw;
+  }
+
+  .courseinfo-img1 {
+    width: 100%;
+  }
+
+  .courseinfo-boxes2 {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7vw;
+  }
+
+  .courseinfo-img-box2 {
+    display: none;
+  }
+
+  .courseinfo-img2 {
+    display: none;
+  }
+
+  .courseinfo-box2-text {
+    width: 22.3vw;
+  }
+
+  .courseinfo-h4 {
+    font-size: 3.2vw;
+  }
+
+  .courseinfo-box2-p {
+    font-size: 2.7vw;
+  }
+}
+
+  .intro-text2 {
+    font-size: 2.5vw;
+  }
+}
+
+.container-details{
+    padding-left:6.3vw;
+    width:100%;
+    height:10vh;
+}
+
+h2{
+    font-size:3.4vw;
+    font-family:"Roboto Slab",serif;
+    padding-bottom: 3vw;
+}
+
+.first-details{
+    display:flex;
+    gap:4vw;
+ padding-right:26vw;
+}
+
+.ust-detail{
+    font-size:1.5vw;
+    color:#1E4681;
+    font-weight:500;
+    font-family:"Roboto",sans-serif;
+    margin-top:9vh;
+}
+
+.alt-detail{
+    font-family:"Roboto",sans-serif;
+    font-size:1.1vw;
+    margin-top:0.8vh;
+    width:70%;
+    margin-bottom:25vh;
+    
+}
+.alt-detail1{
+    font-family:"Roboto",sans-serif;
+    font-size:1.1vw;
+    margin-top:0.8vh;
+    width:100%;
+    margin-bottom:25vh;
+
+}
+
+ul{
+    font-size:1.4vw;
+    font-family:"Roboto",sans-serif;
+    margin-top:2vh;
+    margin-bottom:15vh;
+}
+
+.second-details{
+    width:37%;
+}
+@media screen and (max-width: 990px) and (min-width: 601px){
+
+.container-details{
+padding-left:5vw;
+}
+
+h2{
+font-size:4vw;
+}
+
+.ust-detail{
+font-size:2vw;
+font-weight:700;
+margin-top:6vh;
+}
+
+.alt-detail{
+font-size:1.4vw;
+margin-top:0.5vh;
+width:75%;
+margin-bottom:10vh;
+
+}
+.alt-detail1{
+font-size:1.4vw;
+margin-top:0.5vh;
+width:100%;
+margin-bottom:10vh;
+}
+ul{
+font-size:1.8vw;
+margin-top:1.5vh;
+margin-bottom:14vh;
+}
+.first-details{
+ padding-right:15vw;
+}
+.second-details{
+width:46%;
+}
+}
+
+@media screen and (max-width:600px) and (min-width:375px){
+
+.container-details{
+padding-left:4vw;
+}
+
+h2{
+font-size:5vw;
+margin-top:7vh;
+}
+
+.first-details{
+display:flex;
+flex-direction:column;
+}
+
+.ust-detail{
+font-size:3vw;
+font-weight:700;
+margin-top:2vh;
+}
+
+.alt-detail{
+font-size:2.5vw;
+margin-top:0.5vh;
+width:61%;
+margin-bottom:2vh;
+}
+.alt-detail1{
+font-size:2.5vw;
+margin-top:0.5vh;
+width:50%;
+margin-bottom:2vh;
+}
+
+ul{
+font-size:3vw;
+margin-top:2vh;
+margin-bottom:8vh;
+
+}
+
+.second-details{
+width: 78%;
+}
+
+}
+
