@@ -9,3 +9,157 @@
 
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Roboto Slab", serif; */
+
+.footer {
+    background-color: black;
+    padding: 1.3rem 7.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-container {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 1.875rem;
+}
+
+.footer-sag {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-top: 1.3rem;
+}
+
+.number {
+    color: white;
+    font-size: 1.5625rem;
+}
+
+.gmail {
+    color: white;
+    font-size: 1.5625rem;
+}
+
+.email {
+    flex-direction: row;
+    display: flex;
+    gap: 1.375rem;
+}
+
+.contact {
+    flex-direction: row;
+    display: flex;
+    gap: 1.375rem;
+}
+
+.footer-bottom {
+    color: white;
+    padding-top: 7.8125rem;
+    padding-bottom: 2rem;
+    font-size: 1.125rem;
+}
+
+.footer-intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact img {
+    width: 1.6875rem;
+    height: 1.6875rem;
+}
+
+.email img {
+    width: 1.6875rem;
+    height: 1.125rem;
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+    .footer {
+        padding: 1.3rem 3rem;
+    }
+
+    .gmail {
+        font-size: 1.25rem;
+    }
+      .number{
+        font-size: 1.25rem;
+      }
+
+    .contact {
+        gap: 1rem;
+    }
+
+        .email{
+             gap: 1rem;
+        }
+
+    .footer-bottom {
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .contact img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .email img {
+        width: 1.4rem;
+        height: 0.9rem;
+    }
+}
+
+    @media (min-width: 375px) and (max-width: 600px) {
+    .footer {
+        padding: 1.46rem 3.55rem 0 3.55rem;
+    }
+
+    .footer-intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-sag {
+        align-items: start;
+        gap: 0;
+        padding-top: 4.31rem;
+    }
+
+    .contact {
+
+        gap: 1rem;
+    }
+
+    .email {
+
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .number,
+    .gmail {
+        font-size: 1rem;
+    }
+
+    .footer-bottom {
+        padding-top: 4.875rem;
+        padding-bottom: 0;
+        font-size: 0.875rem;
+        padding-left: 0.625rem;
+    }
+
+    .contact img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .email img {
+        width: 1.2rem;
+        height: 0.8rem;
+    }
+}
