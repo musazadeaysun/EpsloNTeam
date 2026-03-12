@@ -1,11 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-/* font-family: "Roboto", sans-serif; */
-/* font-family: "Roboto Slab", serif; */
+.container-details{
+    padding-left:6.3vw;
+    width:100%;
+    height:10vh;
+}
+
+h2{
+    font-size:3.4vw;
+    font-family:"Roboto Slab",serif;
+    padding-bottom: 3vw;
+}
+
+.first-details{
+    display:flex;
+    gap:4vw;
+ padding-right:26vw;
+}
+
+.ust-detail{
+    font-size:1.5vw;
+    color:#1E4681;
+    font-weight:500;
+    font-family:"Roboto",sans-serif;
+    margin-top:9vh;
+}
+
+.alt-detail{
+    font-family:"Roboto",sans-serif;
+    font-size:1.1vw;
+    margin-top:0.8vh;
+    width:70%;
+    margin-bottom:25vh;
+    
+}
+.alt-detail1{
+    font-family:"Roboto",sans-serif;
+    font-size:1.1vw;
+    margin-top:0.8vh;
+    width:100%;
+    margin-bottom:25vh;
+
+}
+
+ul{
+    font-size:1.4vw;
+    font-family:"Roboto",sans-serif;
+    margin-top:2vh;
+    margin-bottom:15vh;
+}
+
+.second-details{
+    width:37%;
+}
+@media screen and (max-width: 990px) and (min-width: 601px){
+
+.container-details{
+padding-left:5vw;
+}
+
+h2{
+font-size:4vw;
+}
+
+.ust-detail{
+font-size:2vw;
+font-weight:700;
+margin-top:6vh;
+}
+
+.alt-detail{
+font-size:1.4vw;
+margin-top:0.5vh;
+width:75%;
+margin-bottom:10vh;
+
+}
+.alt-detail1{
+font-size:1.4vw;
+margin-top:0.5vh;
+width:100%;
+margin-bottom:10vh;
+}
+ul{
+font-size:1.8vw;
+margin-top:1.5vh;
+margin-bottom:14vh;
+}
+.first-details{
+ padding-right:15vw;
+}
+.second-details{
+width:46%;
+}
+}
+
+@media screen and (max-width:600px) and (min-width:375px){
+
+.container-details{
+padding-left:4vw;
+}
+
+h2{
+font-size:5vw;
+margin-top:7vh;
+}
+
+.first-details{
+display:flex;
+flex-direction:column;
+}
+
+.ust-detail{
+font-size:3vw;
+font-weight:700;
+margin-top:2vh;
+}
+
+.alt-detail{
+font-size:2.5vw;
+margin-top:0.5vh;
+width:61%;
+margin-bottom:2vh;
+}
+.alt-detail1{
+font-size:2.5vw;
+margin-top:0.5vh;
+width:50%;
+margin-bottom:2vh;
+}
+
+ul{
+font-size:3vw;
+margin-top:2vh;
+margin-bottom:8vh;
+
+}
+
+.second-details{
+width: 78%;
+}
+
+}
