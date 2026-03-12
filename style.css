@@ -434,7 +434,7 @@ main {
   padding: 11.2vw 7.6vw;
 }
 
-h3 {
+.about-h3 {
   font-size: 3.4vw;
 }
 
@@ -443,7 +443,7 @@ h3 {
   padding-top: 3.3vw;
 }
 
-h2 {
+.about-h2 {
   font-size: 5vw;
 }
 
@@ -454,7 +454,7 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
-ul {
+.about-ul {
   font-size: 1.1vw;
   list-style: none;
   padding-top: 0.56vw;
@@ -471,7 +471,7 @@ ul {
     padding: 10vw 7vw;
   }
 
-  h3 {
+  .about-h3 {
     font-size: 3.2vw;
   }
 
@@ -480,7 +480,7 @@ ul {
     padding-top: 3vw;
   }
 
-  h2 {
+  .about-h2 {
     font-size: 4.6vw;
   }
 
@@ -489,7 +489,7 @@ ul {
     padding-top: 3vw;
   }
 
-  ul {
+  .about-ul {
     font-size: 1vw;
     padding-top: 0.5vw;
     width: 40%;
@@ -511,7 +511,7 @@ ul {
     padding: 9vw 8vw;
   }
 
-  h3 {
+  .about-h3 {
     font-size: 4.5vw;
   }
 
@@ -520,7 +520,7 @@ ul {
     padding-top: 3.5vw;
   }
 
-  h2 {
+  .about-h2 {
     font-size: 6vw;
   }
 
@@ -529,7 +529,7 @@ ul {
     padding-top: 3.5vw;
   }
 
-  ul {
+  about-ul {
     font-size: 2.5vw;
     padding-top: 1vw;
     width: 60%;
