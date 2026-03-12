@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Roboto Slab", serif; */
 
@@ -164,7 +168,7 @@
 
 .reviewspage1 {
     background-color: #EFEFEF;
-    padding-bottom: 50vw;
+    padding-bottom: 5vw;
 }
 
 .reviewspageh2 {
@@ -290,10 +294,7 @@
     }
 }
 
-main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 
 .cardpage-section {
   width: 100%;
