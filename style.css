@@ -1041,6 +1041,7 @@ margin-top:7vh;
 .first-details{
 display:flex;
 flex-direction:column;
+padding-left:3vw;
 }
 
 .ust-detail{
@@ -1071,6 +1072,7 @@ margin-bottom:8vh;
 
 .second-details{
 width: 78%;
+padding-left: 6vw;
 }
 
 }
