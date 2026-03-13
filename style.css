@@ -682,12 +682,12 @@ main {
   }
 
   .courseinfo-box1 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .courseinfo-box1-p {
-    font-size: 2.7vw;
+    font-size: 3vw;
   }
 
   .courseinfo-img-box1 {
